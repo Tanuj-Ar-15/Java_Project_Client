@@ -108,6 +108,10 @@ const PhotoGrid = () => {
     link.download = `${photo.name}.jpg`;
     document.body.appendChild(link);
     link.click();
+
+
+    console.log("downloaded");
+    
   };
 
   return (
