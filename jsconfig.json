@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*", "shadows.jsx"],
+  "exclude": ["node_modules"]
+}
